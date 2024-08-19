@@ -54,6 +54,7 @@ services:
       - "MYSQL_DATABASE=laravel"
     ports:
     - "33061:3306"
+    restart: always
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
